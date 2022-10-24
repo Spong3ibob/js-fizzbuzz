@@ -16,7 +16,15 @@ h1{
     color: white;
     text-align: center;
 }
-.container{
+#container{
     width: 500px;
     background-color:  #083b4c;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+#contanire div{
+    height: 10px;
+    width: 10px;
+    background-color: #1389b2;
 }
